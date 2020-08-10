@@ -1,0 +1,64 @@
+partial default alphanumeric_keys
+xkb_symbols "3rdlvl-unified-symbols-ru" {
+    name[Group1]= "Russian (3rd lvl unified symbols)";
+
+    // 1st keyboard row
+    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,              NoSymbol,             dead_grave ] }; // "~"
+    key <AE01> { [                 1,            exclam,           onesuperior,             exclamdown ] }; // "1""
+    key <AE02> { [                 2,          quotedbl,           twosuperior,                onehalf ] }; // "2"
+    key <AE03> { [                 3,        numerosign,         threesuperior,               onethird ] }; // "3"
+    key <AE04> { [                 4,         semicolon,                dollar,             onequarter ] }; // "4"
+    key <AE05> { [                 5,           percent,                 U2030,               NoSymbol ] }; // "5" // U+2030 PER MILLE SIGN (‰)
+    key <AE06> { [                 6,             colon,               uparrow,        dead_circumflex ] }; // "6"
+    key <AE07> { [                 7,          question,             ampersand,           questiondown ] }; // "7" // +&
+    key <AE08> { [                 8,          asterisk,              infinity,              oneeighth ] }; // "8" // +S⅛
+    key <AE09> { [                 9,         parenleft,             leftarrow,               NoSymbol ] }; // "9"
+    key <AE10> { [                 0,        parenright,            rightarrow,               NoSymbol ] }; // "0"
+    key <AE11> { [             minus,        underscore,                emdash,                 endash ] }; // "-"
+    key <AE12> { [             equal,              plus,              notequal,              plusminus ] }; // "="
+
+    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO,                 grave,             asciitilde ] };
+    key <AD01> { [   Cyrillic_shorti,   Cyrillic_SHORTI,                exclam                         ] };
+    key <AD02> { [      Cyrillic_tse,      Cyrillic_TSE,              quotedbl,                     at ] };
+    key <AD03> { [        Cyrillic_u,        Cyrillic_U,            numbersign,             numerosign ] };
+    key <AD04> { [       Cyrillic_ka,       Cyrillic_KA,                dollar,              semicolon ] };
+    key <AD05> { [       Cyrillic_ie,       Cyrillic_IE,               percent                         ] };
+    key <AD06> { [       Cyrillic_en,       Cyrillic_EN,           asciicircum,                  colon ] };
+    key <AD07> { [      Cyrillic_ghe,      Cyrillic_GHE,              question                         ] };
+    key <AD08> { [      Cyrillic_sha,      Cyrillic_SHA,             ampersand                         ] };
+    key <AD09> { [    Cyrillic_shcha,    Cyrillic_SHCHA,              asterisk                         ] };
+    key <AD10> { [       Cyrillic_ze,       Cyrillic_ZE                                                ] };
+    key <AD11> { [       Cyrillic_ha,       Cyrillic_HA                                                ] };
+    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN                                                ] };
+
+    // 3rd keyboard row
+    key <AC01> { [       Cyrillic_ef,       Cyrillic_EF,                 colon                         ] };
+    key <AC02> { [     Cyrillic_yeru,     Cyrillic_YERU,            apostrophe                         ] };
+    key <AC03> { [       Cyrillic_ve,       Cyrillic_VE,             braceleft,            bracketleft ] };
+    key <AC04> { [        Cyrillic_a,        Cyrillic_A,                 comma,                   less ] };
+    key <AC05> { [       Cyrillic_pe,       Cyrillic_PE,             parenleft                         ] };
+    key <AC06> { [       Cyrillic_er,       Cyrillic_ER,            parenright                         ] };
+    key <AC07> { [        Cyrillic_o,        Cyrillic_O,                period,                greater ] };
+    key <AC08> { [       Cyrillic_el,       Cyrillic_EL,            braceright,           bracketright ] };
+    key <AC09> { [       Cyrillic_de,       Cyrillic_DE,              quotedbl                         ] };
+    key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,             semicolon                         ] };
+    key <AC11> { [        Cyrillic_e,        Cyrillic_E                                                ] };
+
+    // 4th keyboard row
+    key <AB01> { [       Cyrillic_ya,       Cyrillic_YA                                                ] };
+    key <AB02> { [      Cyrillic_che,      Cyrillic_CHE                                                ] };
+    key <AB03> { [       Cyrillic_es,       Cyrillic_ES                                                ] };
+    key <AB04> { [       Cyrillic_em,       Cyrillic_EM                                                ] };
+    key <AB05> { [        Cyrillic_i,        Cyrillic_I                                                ] };
+    key <AB06> { [       Cyrillic_te,       Cyrillic_TE                                                ] };
+    key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN                                                ] };
+    key <AB08> { [       Cyrillic_be,       Cyrillic_BE                                                ] };
+    key <AB09> { [       Cyrillic_yu,       Cyrillic_YU                                                ] };
+    key <AB10> { [            period,             comma,              division,            dead_acute  ] }; // "/" // +÷
+
+    // 5th keyboard row
+    key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "
+
+    // Adds comma on keypad DELETE key
+    include "kpdl(comma)"
+};

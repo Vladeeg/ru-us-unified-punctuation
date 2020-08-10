@@ -1,0 +1,30 @@
+<!--3rdlvl-unified-symbols-start-->
+    <layout>
+      <configItem>
+        <name>3rdlvl-unified-symbols-ru</name>
+        <shortDescription>Russian (3rd lvl unified symbols)</shortDescription>
+        <description>Russian (3rd lvl unified symbols)</description>
+        <languageList>
+          <iso639Id>rus</iso639Id>
+        </languageList>
+        <countryList>
+          <iso3166Id>RU</iso3166Id>
+        </countryList>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
+        <name>3rdlvl-unified-symbols-en</name>
+        <shortDescription>English (3rd lvl unified symbols)</shortDescription>
+        <description>English (3rd lvl unified symbols)</description>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
+        <countryList>
+          <iso3166Id>US</iso3166Id>
+        </countryList>
+      </configItem>
+      <variantList/>
+    </layout>
+<!--3rdlvl-unified-symbols-end-->
